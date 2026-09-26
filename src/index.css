@@ -1,0 +1,28 @@
+/* Replace the whole contents of src/index.css with this file.
+   The default Vite starter centres the app in the middle of the window
+   (body { display: flex; place-items: center } and #root { max-width: 1280px }).
+   App.css controls the layout now, so this only resets the page. */
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+}
+
+#root {
+  max-width: none;
+  text-align: left;
+}
