@@ -139,7 +139,7 @@ app.add_middleware(
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
-    "password": "Enter your SQL password",
+    "password": "965247@basha",
     "database": "career_compass"
 }
 
