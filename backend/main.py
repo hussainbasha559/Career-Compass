@@ -137,10 +137,11 @@ app.add_middleware(
 )
 
 DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "965247@basha",
-    "database": "career_compass"
+    "host": os.environ.get("DB_HOST", "localhost"),
+    "port": int(os.environ.get("DB_PORT", "3306")),
+    "user": os.environ.get("DB_USER", "root"),
+    "password": os.environ.get("DB_PASSWORD", "9qezN0QLULHy"),
+    "database": os.environ.get("DB_NAME", "career_compass"),
 }
 
 def get_db_connection():
