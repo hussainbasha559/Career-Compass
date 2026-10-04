@@ -44,7 +44,7 @@ import "./App.css";
 /* API helpers                                                         */
 /* ------------------------------------------------------------------ */
 
-const API = "https://career-compass-1-owyk.onrender.com/";
+const API = "https://career-compass-1-owyk.onrender.com";
 
 const TOKEN_KEY = "cc_token";
 const THEME_KEY = "cc_theme";
