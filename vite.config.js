@@ -3,8 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  server: {
-    host: '0.0.0.0',
-    allowedHosts: ['host.docker.internal'],
+  preview: {
+    allowedHosts: ['career-compass-2-iafi.onrender.com'],
   },
 })
