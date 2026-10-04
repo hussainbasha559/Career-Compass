@@ -1,7 +1,6 @@
-
-fastapi==0.x.x
-uvicorn==0.x.x
-mysql-connector-python==x.x.x
-ollama==x.x.x
-slowapi==x.x.x
-argon2-cffi==x.x.x
+fastapi==0.137.1
+uvicorn==0.49.0
+mysql-connector-python==9.7.0
+argon2-cffi==25.1.0
+slowapi==0.1.10
+ollama==0.6.2
