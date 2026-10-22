@@ -137,9 +137,9 @@ app.add_middleware(
 )
 
 DB_CONFIG = {
-    "host": os.environ.get("DB_HOST", "localhost"),
+    "host": os.environ.get("DB_HOST", "sql.freedb.tech"),
     "port": int(os.environ.get("DB_PORT", "3306")),
-    "user": os.environ.get("DB_USER", "root"),
+    "user": os.environ.get("DB_USER", "u_mKDUdq"),
     "password": os.environ.get("DB_PASSWORD", "fuPk70kodtnb"),
     "database": os.environ.get("DB_NAME", "career_compass"),
 }
